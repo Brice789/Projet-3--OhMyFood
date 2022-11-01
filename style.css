@@ -43,5 +43,14 @@
     box-shadow: 2px -8px rgba(255, 255, 255, 0), 12px -5px rgba(255, 255, 255, 0), 20px -5px rgba(255, 255, 255, 0);
   }
 }
+header {
+  font-weight: bold;
+  align-items: center;
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+}
+header h1 {
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
