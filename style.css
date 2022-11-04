@@ -59,4 +59,11 @@ main .bouton {
   font-family: "Roboto", sans-serif;
 }
 
+main .imgcarte {
+  max-width: 10rem;
+  max-height: 10rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
