@@ -59,6 +59,10 @@ main .bouton {
   font-family: "Roboto", sans-serif;
 }
 
+main .restaurant {
+  background-color: rgb(255, 255, 255);
+}
+
 main .imgcarte {
   max-width: 10rem;
   max-height: 10rem;
