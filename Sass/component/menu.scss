@@ -16,4 +16,11 @@ main .imgcarte
  border-top-right-radius: 20px;
 }
 
+main .carte{
+
+    display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      
+}
 
