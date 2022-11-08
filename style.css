@@ -1,93 +1,18 @@
-header {
-  font-weight: bold;
-  align-items: center;
-  font-family: "Shrikhand", cursive;
-  text-align: center;
-}
-header h1 {
-  align-items: center;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 42 |       @media (max-width: usefull.$breakpoint) {
+ *    |                          ^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   Sass/component/menu.scss 42:26  @use
+ *   style.scss 10:1                 root stylesheet */
 
-.localisation {
-  align-items: center;
-  text-align: center;
-  background-color: #f3f3f3;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 42 \2502        @media (max-width: usefull.$breakpoint) {\a    \2502                           ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   Sass/component/menu.scss 42:26  @use\a   style.scss 10:1                 root stylesheet";
 }
-.localisation i {
-  font-size: 1.25rem;
-}
-
-body .reserver {
-  align-items: center;
-  text-align: center;
-  background-color: #fdfdfd;
-}
-body .reserver h2 {
-  font-weight: bold;
-}
-
-.reserver button {
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  margin-top: 1.5rem;
-  color: white;
-  font-weight: 300;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 2rem;
-  box-shadow: 2px 1px 8px -3px #7e7e7e;
-  font-size: 1rem;
-}
-
-main .bouton {
-  width: 100%;
-  height: 75px;
-  text-align: center;
-  margin: 10px auto;
-  padding: 0;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 5px 10px 0px #b4b4b4;
-  background-color: #FAFAFA;
-  font-size: 1rem;
-  font-weight: 500;
-  font-weight: bolder;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-}
-
-main .restaurant {
-  background-color: rgb(255, 255, 255);
-}
-
-main .imgcarte {
-  max-width: 10rem;
-  max-height: 10rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-main .carte {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
-footer {
-  background-color: #7e7e7e;
-  padding: 1rem 2rem;
-  color: white;
-}
-footer h2 {
-  font-family: "Shrikhand", "sans-serif";
-  font-weight: 500;
-  padding: 1rem 0;
-}
-footer p {
-  padding: 0.2rem;
-}
-
-/*# sourceMappingURL=style.css.map */
