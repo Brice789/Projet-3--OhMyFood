@@ -1,5 +1,3 @@
 {
-    "editor.find.cursorMoveOnType": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "terminal.integrated.cursorBlinking": true
+
 }
