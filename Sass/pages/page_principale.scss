@@ -1,0 +1,92 @@
+// .restaurant .carte .imgcarte {
+//     object-fit: cover;
+//     border-top-left-radius: 25px;
+//     border-top-right-radius: 25px;
+//     width: 100%;
+//     height: 100%;
+
+//     border-radius: 1rem 1rem 0 0;
+//     background-size: cover;
+//     background-position: center;
+//   }
+
+//   .restaurant .carte{
+//     height: 10rem;
+//     border-radius: 1rem 1rem 0 0;
+//     position: relative;
+//     background-color: white;
+//   }
+
+  .imgcarte {
+    height: 175px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+
+//   .restaurant .carte::before {
+//     display: inline-block;
+//     position: absolute;
+//     font-style: normal;
+//     font-variant: normal;
+//     text-rendering: auto;
+//     -webkit-font-smoothing: antialiased;
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 400;
+//     content: "\f004";
+//     font-size: 2rem;
+//     right: 1rem;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     color: inherit;
+//     background-clip: text;
+//     -webkit-background-clip: text;
+//     opacity: 1;
+//     transition: all 200ms ease-in-out;
+//   }
+
+
+// .restaurant .carte{
+//     display: grid;
+
+
+//         height: 15rem;
+//         border-radius: 1rem 1rem 0 0;
+//         background-size: cover;
+//         background-position: center;
+
+        
+      
+// }
+
+.restaurants .carte {
+    height: 250px;
+    width: 100%;
+    display: inline;
+    position: relative;
+    border-radius: 20px;
+    color: #000;
+    background: #FFF;
+    -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
+    box-shadow: 0px 5px 10px 0px #b4b4b4;
+    gap : 3rem;
+    padding-bottom: 5rem;
+  }
+
+  
+  @media screen and (min-width: 1024px) {
+    .carte {
+      width: 45%;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .carte:hover {
+      -webkit-animation: coup 2s ease-in 0.05s forwards;
+      animation: coup 2s ease-in 0.05s forwards;
+    }
+  }

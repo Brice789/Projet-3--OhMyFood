@@ -73,23 +73,11 @@ main .restaurant {
   background-color: rgb(255, 255, 255);
 }
 
-main .imgcarte {
-  max-width: 10rem;
-  max-height: 10rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-main .carte {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
 footer {
-  background-color: #7e7e7e;
+  background-color: #353535;
   padding: 1rem 2rem;
   color: white;
+  margin-top: 5rem;
 }
 footer h2 {
   font-family: "Shrikhand", "sans-serif";
@@ -98,6 +86,41 @@ footer h2 {
 }
 footer p {
   padding: 0.2rem;
+}
+
+.imgcarte {
+  height: 175px;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.restaurants .carte {
+  height: 250px;
+  width: 100%;
+  display: inline;
+  position: relative;
+  border-radius: 20px;
+  color: #000;
+  background: #FFF;
+  -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
+  box-shadow: 0px 5px 10px 0px #b4b4b4;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .carte {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .carte:hover {
+    -webkit-animation: coup 2s ease-in 0.05s forwards;
+    animation: coup 2s ease-in 0.05s forwards;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

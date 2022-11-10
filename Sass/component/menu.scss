@@ -1,31 +1,44 @@
 
 @use "../base/usefull.scss";
+
 main .restaurant
 {
     background-color: rgba(255,255,255,255);
 }
 
 
+// main .imgcarte
+// {
+//     max-width: 10rem;
+//     max-height: 10rem;
 
 
-main .imgcarte
-{
-    max-width: 10rem;
-    max-height: 10rem;
+//  border-top-left-radius: 20px;
+//  border-top-right-radius: 20px;
+// }
 
 
- border-top-left-radius: 20px;
- border-top-right-radius: 20px;
-}
+// main .carte{
 
-main .carte{
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: 2rem;
+    
+// }
 
-    display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
-      
-}
-
+// #homepage .menus .menus__cards .card__image img {
+//     object-fit: cover;
+//     border-top-left-radius: 25px;
+//     border-top-right-radius: 25px;
+//     width: 100%;
+//     height: 100%;
+//   }
+//   #homepage .menus .card__image {
+//     height: 15rem;
+//     border-radius: 1rem 1rem 0 0;
+//     background-size: cover;
+//     background-position: center;
+//   }
 
 
 
