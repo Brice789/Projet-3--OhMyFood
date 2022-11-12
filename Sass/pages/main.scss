@@ -1,0 +1,135 @@
+
+
+@use "../utils/usefull.scss";
+
+/* navigation restaurants */
+.restaurants{
+    height: 1190px;
+    background-color: wheat;
+    @media screen and (min-width: 1024px){
+        height: 700px;
+    } /* titre de la zone de navigation des restaurants */
+    &__titre{
+        position: relative;
+        margin: 0;
+        padding: 55px 0 20px 0;
+        text-indent: 6%;
+        font-size: 1.5rem;
+    } /* élément de navigation */
+    &__navigation{
+        height: 1070px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        @media screen and (min-width: 1024px){
+            height: 550px;
+        }
+    }
+}
+/* carte de restaurant */
+.carte{
+    height: 250px;
+    width: 87%;
+    display: inline;
+    position: relative;
+    border-radius: 20px;
+    color: #000;
+    background:  #FFF;
+    // @include shadow-ok;
+    @media screen and (min-width: 1024px){
+        width: 45%;
+    }
+    @media screen and (min-width: 1024px){
+        &:hover{
+            animation: coup 2s ease-in 0.05s forwards;
+        } 
+    } /* zone de lien */
+    &__lien{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 20px;
+        background: #000;
+        text-decoration: none;
+        &:link{
+            color: #000;
+        }
+        &:visited{
+            color: #000;
+        } /* pancarte de nouveauté */
+        &--nouveau{
+            width: 80px;
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            padding:6px 0;
+            transform-origin: 10% 50%;
+            border-radius: 2px;
+            background-color: #99E2D0;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color:  darken(#99E2D0, 40%);
+        } /* image du restaurant */
+        &__image{
+            height: 175px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        } /* nom du restaurant */
+        &__titre{
+            margin: 0;
+            padding: 13px 0 0 0;
+            font-size: 1.1rem;
+            text-indent: 4%;
+            font-weight: 600;
+        } /* lieu du restaurant */
+        &__texte{
+            margin: 0;
+            padding: 5px 0 0 0;
+            text-indent: 4%;
+            font-size: 1.05rem;
+            font-weight: 300;
+        } /* zone coeur et interaction */
+        &--selection{
+            display: none;
+            &:checked + .coeur .coeur--vide{
+                animation: efface 0.5s linear forwards;
+            }
+            &:checked + .coeur .coeur__filtre--plein{   
+                opacity: 1;
+            }
+            &:checked + .coeur .coeur__filtre--plein{
+                opacity: 1;
+                z-index: 1;
+                animation: grandi-bat 1.8s linear forwards;
+            }
+            @media screen and (min-width: 1024px){
+                &:hover + .coeur .coeur--vide{
+                    animation: efface 0.5s linear forwards;
+                }
+                &:hover + .coeur .coeur__filtre--plein{   
+                    opacity: 1;
+                }
+                &:hover + .coeur .coeur__filtre--plein{
+                    z-index: 1;
+                    opacity: 1;
+                    animation: grandi-bat 1.8s linear forwards;
+                }
+            }   
+        }
+    }
+    @media screen and (min-width: 1024px){
+        &:hover .carte__lien--nouveau{
+            z-index: 1;
+            animation: tombe 2s linear 0.05s;
+        }
+    }    
+}
+
+
+
+

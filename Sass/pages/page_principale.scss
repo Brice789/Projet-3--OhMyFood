@@ -1,82 +1,79 @@
-// .restaurant .carte .imgcarte {
-//     object-fit: cover;
-//     border-top-left-radius: 25px;
-//     border-top-right-radius: 25px;
-//     width: 100%;
-//     height: 100%;
+@use "../utils/usefull.scss";
+.carte .h3{
+    text-decoration : none;
+}
 
-//     border-radius: 1rem 1rem 0 0;
-//     background-size: cover;
-//     background-position: center;
-//   }
+//pour marge
 
-//   .restaurant .carte{
-//     height: 10rem;
-//     border-radius: 1rem 1rem 0 0;
-//     position: relative;
-//     background-color: white;
-//   }
-
-  .imgcarte {
-    height: 175px;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
 
-//   .restaurant .carte::before {
-//     display: inline-block;
-//     position: absolute;
-//     font-style: normal;
-//     font-variant: normal;
-//     text-rendering: auto;
-//     -webkit-font-smoothing: antialiased;
-//     font-family: "Font Awesome 5 Free";
-//     font-weight: 400;
-//     content: "\f004";
-//     font-size: 2rem;
-//     right: 1rem;
-//     top: 50%;
-//     transform: translateY(-50%);
-//     color: inherit;
-//     background-clip: text;
-//     -webkit-background-clip: text;
-//     opacity: 1;
-//     transition: all 200ms ease-in-out;
-//   }
+
+.restaurants
+{
+    background-color: rgba(246,246,246,255);
+    margin-bottom: 2rem;
+}
 
 
-// .restaurant .carte{
-//     display: grid;
+.restaurants__navigation
+{
+    display: flex;
+    gap : 3rem;
+    flex-wrap: wrap ;
 
+}
 
-//         height: 15rem;
-//         border-radius: 1rem 1rem 0 0;
-//         background-size: cover;
-//         background-position: center;
-
-        
-      
-// }
 
 .restaurants .carte {
-    height: 250px;
-    width: 100%;
-    display: inline;
-    position: relative;
+    // height: 250px;
+    // width: 100%;
     border-radius: 20px;
-    color: #000;
-    background: #FFF;
-    -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
-    box-shadow: 0px 5px 10px 0px #b4b4b4;
-    gap : 3rem;
-    padding-bottom: 5rem;
+    // color: #000;
+    background-color: #ffffff;
+    // -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
+    // box-shadow: 0px 5px 10px 0px #b4b4b4;
+    padding-bottom: 1rem;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex-grow: 1;
+    min-width: 3rem;
+    max-width: 70rem;
   }
 
-  
+
+
+  .imgcarte {
+    // height: 175px;
+    width: 100%;
+    // -o-object-fit: cover;
+    // object-fit: cover;
+    min-width: 3rem;
+    max-width: 70rem&100%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+  }
+
+.carte1{
+    background-color: aliceblue;
+}
+
+
+
+main .restaurants .h3, .p
+{
+    font-weight: bold;
+    color: aquamarine;
+}
+
+
+
   @media screen and (min-width: 1024px) {
     .carte {
       width: 45%;
@@ -90,3 +87,20 @@
       animation: coup 2s ease-in 0.05s forwards;
     }
   }
+
+
+main{
+    margin-bottom: 0rem;
+}
+
+body{
+    margin-bottom: 0rem;
+    margin: 0;
+
+    .footer
+    {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+}
