@@ -460,13 +460,14 @@ body .footer {
 .mainpetitmenu .petitmenu {
   background-color: white;
   overflow: hidden;
-  display: grid;
+  display: flex-grow;
   height: 4rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-bottom: 1rem;
+  height: auto;
 }
 .mainpetitmenu .petitmenu .h4 {
   margin-bottom: 0;
