@@ -337,13 +337,68 @@ body .footer {
   box-shadow: 0px 5px 10px 0px #b4b4b4;
 }
 
-.oui {
-  text-align: center;
-  background-color: 1;
+.imgpagi {
+  width: 100%;
+  min-width: 185px;
+  object-position: center;
+  object-fit: cover;
+  max-height: 25rem;
+  border-bottom-right-radius: -10rem;
 }
 
-.imgpagi {
-  max-width: 11111;
+.titrepalette {
+  font-weight: bold;
+  margin-left: 2rem;
+  font-family: "Shrikhand", cursive;
+  position: relative;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+  border-top-left-radius: 20px;
+}
+.titrepalette::before {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f004";
+  font-size: 2rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+.titrepalette::after {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f004";
+  font-size: 2rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
+}
+.titrepalette:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

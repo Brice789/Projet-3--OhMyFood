@@ -1,12 +1,24 @@
+@use "../utils/usefull.scss";
 
+.imgpagi{
+    width: 100%;
+    min-width: 185px;
+    object-position: center;
 
-.oui{
+    object-fit: cover;
+    max-height: 25rem;
 
-text-align: center;
-background-color: alpha($color: #000000);
+    border-bottom-right-radius: -10rem;
+
 }
 
 
-.imgpagi{
-    max-width: 11111;
+.titrepalette{
+    font-weight: bold;
+    margin-left: 2rem;
+    font-family: "Shrikhand", cursive; //peut changer la police si plus beau
+    @include usefull.heart-animated;
+
+
+    border-top-left-radius: 20px;
 }
