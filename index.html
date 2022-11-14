@@ -60,7 +60,10 @@
         <h2>Restaurant</h2>
         <nav class='restaurants__navigation'>
             <section class='carte'>
-                <a href="Pages/page1.html" class='carte1'>
+                <!-- <span class='new'></span> -->
+
+                <a href="Sass/pages/page1.html" class='carte1'>
+                    <!-- <span class='carte__lien--nouveau'>Nouveau</span> -->
                     <img class='imgcarte' src='assets/Lapalettedugout.jpg'  alt='La palette du goût'>
                      <h3 class='cartetitre'>La palette du goût</h3>
                     <p class='cartetexte'>Ménilmontant</p>
@@ -68,13 +71,23 @@
             </section>
              <section class='carte'>
                 <a href="Pages/page1.html" class='carte1'>
+                    <!-- <span class='new'>Nouveau</span> -->
+
                     <img class='imgcarte' src='assets/Lapalettedugout.jpg'  alt='La palette du goût'>
                      <h3 class='cartetitre'>La palette du goût</h3>
                     <p class='cartetexte'>Ménilmontant</p>
                 </a>
+
+                 <!-- selection j'aime -->
+                 <input type='checkbox' class='carte__lien--selection' name='aime' id='aime-La-note-enchantee'>
+                 <label for='aime-La-note-enchantee' class='coeur'>
+                     <i class="far fa-heart coeur--vide"></i>
+                     <span class='coeur__filtre'><i class="fas fa-heart coeur__filtre--plein"></i></span>
+                 </label>
+
             </section> 
             <section class='carte'>
-                <a href="Pages/page1.html" class='carte1'>
+                <a href="Pages/page2.html" class='carte1'>
                     <img class='imgcarte' src='assets/Lapalettedugout.jpg'  alt='La palette du goût'>
                      <h3 class='cartetitre'>La palette du goût</h3>
                     <p class='cartetexte'>Ménilmontant</p>

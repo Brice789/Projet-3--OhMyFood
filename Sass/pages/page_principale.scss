@@ -47,7 +47,7 @@ main{
 
 
 
-  .imgcarte {
+  .imgcarte, .carte new{
     // height: 175px;
     width: 100%;
     // -o-object-fit: cover;
@@ -60,7 +60,7 @@ main{
 
   }
 
-.carte1{
+.carte1, .carte new{
     background-color: aliceblue;
 }
 
@@ -103,4 +103,83 @@ body{
         margin-right: 0rem;
     }
 
+}
+
+
+
+///try nouveau
+/// 
+/// 
+/// ///@at-root
+.restaurants .imgcarte {
+  position: relative;
+}
+.restaurants .imgcarte::before {
+  content: "Nouveau";
+  position: absolute;
+  height: 2rem;
+  width: 5rem;
+  background-color: #99e2d0;
+  color: #1b6150;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  top: 1rem;
+}
+
+
+// main .restaurants .restaurants__navigation .carte .carte1 .carte__lien--nouveau {
+//   width: 80px;
+//   position: absolute;
+//   right: 12px;
+//   top: 12px;
+//   padding: 6px 0;
+//   border-radius: 2px;
+//   background-color: #99E2D0;
+//   text-align: center;
+//   font-size: 0.8rem;
+//   font-weight: 500;
+//   color: #278870;
+// }
+
+
+@media screen and (min-width: 1024px) {
+  .carte:hover .carte__lien--nouveau {
+    z-index: 1;
+    -webkit-animation: tombe 2s linear 0.05s;
+            animation: tombe 2s linear 0.05s;
+  }
+}
+
+
+.restaurants__navigation .new{
+
+  position: relative;
+
+  width: 80px;
+  left: 295px;
+  top: 12px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #99E2D0;
+  text-align: center;
+
+  color: #278870;
+}
+
+
+.new {
+  position: relative;
+}
+.new::before {
+  content: "Nouveau";
+  position: absolute;
+  height: 2rem;
+  width: 5rem;
+  background-color: #99e2d0;
+  color: #1b6150;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  top: 1rem;
 }

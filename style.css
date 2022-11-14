@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   font-weight: bold;
   align-items: center;
@@ -135,15 +136,15 @@ main {
   max-width: 70rem;
 }
 
-.imgcarte {
+.imgcarte, .carte new {
   width: 100%;
   min-width: 3rem;
-  max-width: 70rem .imgcarte 100%;
+  max-width: 70rem .imgcarte, .carte new 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.carte1 {
+.carte1, .carte new {
   background-color: aliceblue;
 }
 
@@ -174,6 +175,175 @@ body {
 body .footer {
   margin-left: 0rem;
   margin-right: 0rem;
+}
+
+.restaurants .imgcarte {
+  position: relative;
+}
+
+.restaurants .imgcarte::before {
+  content: "Nouveau";
+  position: absolute;
+  height: 2rem;
+  width: 5rem;
+  background-color: #99e2d0;
+  color: #1b6150;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  top: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .carte:hover .carte__lien--nouveau {
+    z-index: 1;
+    -webkit-animation: tombe 2s linear 0.05s;
+    animation: tombe 2s linear 0.05s;
+  }
+}
+.restaurants__navigation .new {
+  position: relative;
+  width: 80px;
+  left: 295px;
+  top: 12px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #99E2D0;
+  text-align: center;
+  color: #278870;
+}
+
+.new {
+  position: relative;
+}
+
+.new::before {
+  content: "Nouveau";
+  position: absolute;
+  height: 2rem;
+  width: 5rem;
+  background-color: #99e2d0;
+  color: #1b6150;
+  display: grid;
+  place-items: center;
+  right: 1rem;
+  top: 1rem;
+}
+
+.carte__lien--selection {
+  display: none;
+}
+
+.carte__lien--selection:checked + .coeur .coeur--vide {
+  -webkit-animation: efface 0.5s linear forwards;
+  animation: efface 0.5s linear forwards;
+}
+
+.carte__lien--selection:checked + .coeur .coeur__filtre--plein {
+  opacity: 1;
+}
+
+.carte__lien--selection:checked + .coeur .coeur__filtre--plein {
+  opacity: 1;
+  z-index: 1;
+  -webkit-animation: grandi-bat 1.8s linear forwards;
+  animation: grandi-bat 1.8s linear forwards;
+}
+
+@media screen and (min-width: 1024px) {
+  .carte__lien--selection:hover + .coeur .coeur--vide {
+    -webkit-animation: efface 0.5s linear forwards;
+    animation: efface 0.5s linear forwards;
+  }
+  .carte__lien--selection:hover + .coeur .coeur__filtre--plein {
+    opacity: 1;
+  }
+  .carte__lien--selection:hover + .coeur .coeur__filtre--plein {
+    z-index: 1;
+    opacity: 1;
+    -webkit-animation: grandi-bat 1.8s linear forwards;
+    animation: grandi-bat 1.8s linear forwards;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .carte:hover .carte__lien--nouveau {
+    z-index: 1;
+    -webkit-animation: tombe 2s linear 0.05s;
+    animation: tombe 2s linear 0.05s;
+  }
+}
+/* bloc bem coeur réutilisé */
+.coeur {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  /* coeur vide */
+  /* zone apparition du coeur plein */
+}
+
+.coeur:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.coeur--vide {
+  padding: 13px 12.5px 12px 12.8px;
+  font-size: 1.48rem;
+}
+
+.coeur__filtre {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* coeur plein */
+}
+
+.coeur__filtre--plein {
+  position: absolute;
+  padding: 12px 11px 12px 13px;
+  font-size: 1.5rem;
+  color: transparent;
+  opacity: 0;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  background: -o-linear-gradient(250deg, #9356DC 35%, #FF79DA 65%);
+  background: linear-gradient(200deg, #9356DC 35%, #FF79DA 65%);
+  -webkit-background-clip: text;
+}
+
+#page1 #page1 body .header .h1 {
+  text-align: center;
+  align-items: center;
+}
+
+.imgfond {
+  height: 10rem;
+  width: 10rem;
+}
+
+.menu-item__description {
+  height: 250px;
+  width: 87%;
+  display: inline;
+  position: relative;
+  border-radius: 20px;
+  color: #000;
+  background: #FFF;
+  -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
+  box-shadow: 0px 5px 10px 0px #b4b4b4;
+}
+
+.oui {
+  text-align: center;
+  background-color: 1;
+}
+
+.imgpagi {
+  max-width: 11111;
 }
 
 /*# sourceMappingURL=style.css.map */
