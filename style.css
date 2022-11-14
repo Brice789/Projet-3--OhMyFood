@@ -125,6 +125,57 @@ main {
   flex-wrap: wrap;
 }
 
+.restaurants .carte1 {
+  position: relative;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+}
+.restaurants .carte1::before {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f004";
+  font-size: 2rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+.restaurants .carte1::after {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f004";
+  font-size: 2rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  transition: all 200ms ease-in-out;
+  background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
+}
+.restaurants .carte1:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.1);
+}
+
 .restaurants .carte {
   border-radius: 20px;
   background-color: #ffffff;
@@ -343,17 +394,22 @@ body .footer {
   object-position: center;
   object-fit: cover;
   max-height: 25rem;
-  border-bottom-right-radius: -10rem;
+}
+
+.body2 {
+  background-color: #f6f6f6;
 }
 
 .titrepalette {
   font-weight: bold;
-  margin-left: 2rem;
   font-family: "Shrikhand", cursive;
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
   border-top-left-radius: 20px;
+  min-width: 256px;
+  background-color: #f6f6f6;
+  margin-top: -2rem;
 }
 .titrepalette::before {
   display: inline-block;
@@ -399,6 +455,31 @@ body .footer {
 .titrepalette:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
+}
+
+.mainpetitmenu .petitmenu {
+  background-color: white;
+  overflow: hidden;
+  padding: 1rem;
+  display: grid;
+  height: 4rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.mainpetitmenu .petitmenu .h4 {
+  margin-bottom: 0;
+  margin: 0;
+}
+.mainpetitmenu .petitmenu .p {
+  margin: 0;
+}
+.mainpetitmenu .petitmenu .h4, .mainpetitmenu .petitmenu .p {
+  margin: 0;
+  margin-top: 0%;
+  margin-bottom: 0cm;
 }
 
 /*# sourceMappingURL=style.css.map */
