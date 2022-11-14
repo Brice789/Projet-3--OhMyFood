@@ -7,13 +7,10 @@
     object-fit: cover;
     max-height: 25rem;
 }
-
 // .mainpetitmenu{padding: 0 1rem;}
 .body2{
     background-color:#f6f6f6;
 }
-
-
 .titrepalette{
     font-weight: bold;
     font-family: "Shrikhand", cursive; //peut changer la police si plus beau
@@ -23,33 +20,22 @@
     background-color:#f6f6f6;
     margin-top: -2rem;
 }
-
-
-
-
-
 .mainpetitmenu .petitmenu{
     background-color: white;
-    
     overflow: hidden;
-    padding: 1rem;
     display: grid;
     height: 4rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-
     margin-bottom: 1rem;
-    // padding-bottom: 1rem;
-    .h4{
-        // display:inline;
 
-        // margin-left: 4rem;
-        // display: flex;
+    // padding-bottom: 1rem;
+    // padding: 1rem;
+    .h4{
         margin-bottom: 0;
         margin: 0;
-
     }
     .p{
         margin: 0;
@@ -59,78 +45,7 @@
         margin: 0;
         margin-top: 0%;
         margin-bottom: 0cm;
+        padding: 0cm;
     }
-
-
-
 }
 
-// .petitmenu .p
-// {
-//     padding-left: 2rem;
-//     margin-left: 1rem;
-// }
-
-
-// .sectionpetitmenu {
-//     display: grid;
-//     grid-template-columns: repeat(3, 1fr);
-//     gap: 1rem;
-//     @media (max-width: 1000px) {
-//       grid-template-columns: 1fr;
-//     }
-//     h3 {
-//       text-transform: uppercase;
-//       font-weight: 400;
-//       position: relative;
-//       margin-bottom: 1rem;
-//       &::after {
-//         content: "";
-//         position: absolute;
-//         top: 1.5rem;
-//         left: 0;
-//         height: 0.25rem;
-//         width: 3rem;
-//       }
-//     }
-//     .menus__category {
-//       overflow: hidden;
-
-//       .petitmenu {
-//         // $numberOfItems: 3;
-//         // @for $i from 1 through $numberOfItems {
-//         //   &:nth-child(#{$i}) {
-//         //     animation-delay: 100ms * $i;
-//         //   }
-//         // }
-//         display: flex;
-//         background-color: white;
-//         border-radius: 1rem;
-//         overflow: hidden;
-//         margin: 0.5rem;
-//         // @include usefull.box-shadow;
-//         animation: appear 1s;
-//         animation-fill-mode: both;
-
-//         // .menu-item__price {
-//         //   margin-left: auto;
-//         //   font-weight: 900;
-//         //   padding: 1rem;
-//         //   display: flex;
-//         //   align-items: flex-end;
-//         // }
-
-
-//         .petitmenu{
-//           padding: 1rem;
-//           overflow: hidden;
-//           h4,
-//           p {
-//             overflow: hidden;
-//             white-space: nowrap;
-//             text-overflow: ellipsis;
-//           }
-//         }
-//     }
-// } 
-// }
