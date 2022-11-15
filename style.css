@@ -69,6 +69,10 @@ main .bouton {
   color: #000;
   font-family: "Roboto", sans-serif;
 }
+main .bouton:hover {
+  background-color: #f2eafb;
+  transform: scale(1.02);
+}
 
 main .restaurant {
   background-color: rgb(255, 255, 255);

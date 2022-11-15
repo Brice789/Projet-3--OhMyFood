@@ -17,4 +17,16 @@ main .bouton
         // text-align: start;
         color: #000;
         font-family: "Roboto", sans-serif;
+
+        &:hover {
+
+                background-color: lighten(#9356dc, 35%);
+                transform: scale(1.02);
+           
+                // i::before {
+                //   color: colors.$purple;
+                // }
+        }
 }
+
+
