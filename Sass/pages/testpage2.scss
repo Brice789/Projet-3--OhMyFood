@@ -11,6 +11,8 @@
 .body2{
     background-color:#f6f6f6;
 }
+
+
 @mixin quarterspin {
     @keyframes quarterspin {
       0% {
@@ -63,16 +65,27 @@
 
     .prix
     {
-        margin-left: auto;
-        font-weight: bold;
-        padding: 1rem;
-        display: flex;
-        align-items: flex-end;
+        // margin-left: auto;
+        // font-weight: bold;
+        // padding: 1rem;
+        // display: flex;
+        // align-items: flex-end;
+
+        // align-items: flex-end;
+    display: flex;
+    font-weight: 900;
+    margin-left: auto;
+    padding: 1rem;
     }
 
   
 }
 
+.carte1
+{
+    text-decoration:done;
+
+}
 
 .repas__titre--barre {
 
@@ -94,7 +107,7 @@
   }
 
   .menu-item__check {
-    margin-right: 0;
+    margin-left: auto;
 
     @include quarterspin;
     animation: quarterspin 0.5s ease-in-out;
