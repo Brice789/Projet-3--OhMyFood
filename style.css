@@ -534,4 +534,38 @@ body .footer {
   }
 }
 
+@keyframes disappear {
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader-multi {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  inset: 0;
+  z-index: 1;
+  opacity: 3;
+  animation: disappear 100ms 3s forwards;
+  transform-origin: top;
+}
+
+.loader-multi::after {
+  content: "";
+  height: 100px;
+  width: 100px;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+  border-radius: 50%;
+  animation: spin 3s ease-in-out;
+  animation-iteration-count: 3;
+}
+
 /*# sourceMappingURL=style.css.map */
