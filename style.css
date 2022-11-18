@@ -575,6 +575,10 @@ body .footer {
   }
 }
 
+.prix {
+  margin-left: 4rem;
+}
+
 @keyframes disappear {
   to {
     transform: scale(0);
