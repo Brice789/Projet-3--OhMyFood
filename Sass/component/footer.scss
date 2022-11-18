@@ -26,6 +26,15 @@ body .footer
 }
   
 
+footer{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  :any-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+}
 
 
 

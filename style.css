@@ -78,6 +78,38 @@ main .restaurant {
   background-color: rgb(255, 255, 255);
 }
 
+main .restaurants .p {
+  text-decoration: none;
+}
+
+main .restaurants .h3 {
+  text-decoration: none;
+}
+
+main .carte {
+  text-decoration: none;
+}
+
+main .restaurants .carte {
+  text-decoration: none;
+  color: black;
+}
+
+main .restaurants .carte1 {
+  text-decoration: none;
+  color: black;
+}
+
+main .h2 {
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
+body main .restaurants .h2 {
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
 footer {
   background-color: #353535;
   padding: 1rem 2rem;
@@ -97,6 +129,15 @@ body .footer {
   margin: 0rem;
   margin-left: 0rem;
   margin-right: 0rem;
+}
+
+footer {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer :any-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 @keyframes appear {
