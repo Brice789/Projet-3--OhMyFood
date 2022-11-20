@@ -63,22 +63,7 @@
         padding: 0cm;
     }
 
-    .prix
-    {
-        // margin-left: auto;
-        // font-weight: bold;
-        // padding: 1rem;
-        // display: flex;
-        // align-items: flex-end;
-
-        // align-items: flex-end;
-    display: flex;
-    font-weight: 900;
-    margin-left: auto;
-    padding: 1rem;
-    }
-
-  
+   
 }
 
 .carte1
@@ -106,14 +91,4 @@
 
   }
 
-  .menu-item__check {
-    margin-left: auto;
 
-    @include quarterspin;
-    animation: quarterspin 0.5s ease-in-out;
-  }
- 
-
-.prix{
-  margin-left: 4rem;
-}
