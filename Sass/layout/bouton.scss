@@ -29,3 +29,39 @@
   .reserver button:hover {
     transform: scale(1.05);
   }
+
+  .mainpetitmenu button{
+    align-items: center;
+  }
+
+.couleur button
+{
+  align-items: center;
+  margin: auto;
+  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  margin-top: 1.5rem;
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
+  font-size: 1rem;
+  
+  cursor: pointer;
+  transition: transform 200ms;
+
+
+  :hover{
+  transform: scale(1.02);
+  }
+
+}
+
+
+.mainpetitmenu button:hover {
+  transform: scale(1.05);
+}
+
+

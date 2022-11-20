@@ -2,11 +2,39 @@ body .reserver
 {
     align-items: center;
     text-align: center;
-    // margin-top: 1.5rem;
+
+    // margin-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    padding-bottom: 2rem;
 
     background-color: #fdfdfd;
 
     h2{
         font-weight: bold;
+    }
+    h3{
+        padding-bottom: 0.5rem;
+    }
+}
+
+
+body .couleur
+{
+    align-items: center;
+    text-align: center;
+
+    // margin-top: 2rem;
+    padding-top: 2rem;
+    height: auto;
+    padding-bottom: 2rem;
+
+
+
+    h2{
+        font-weight: bold;
+    }
+    h3{
+        padding-bottom: 0.5rem;
     }
 }
