@@ -23,7 +23,7 @@
       }
     }
   }
-.body2 .titrepalette{
+body .titrepalette{
     font-weight: bold;
     font-family: "Shrikhand", cursive; //peut changer la police si plus beau
     @include usefull.heart-animated;
@@ -37,12 +37,13 @@
     overflow: hidden;
     display:flex-grow;
     height: 4rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    margin-bottom: 1rem;
-    animation: appear 1s;
+    border-bottom-left-radius: -1rem;
+    border-bottom-right-radius: -1rem;
+    border-top-left-radius: -1rem;
+    border-top-right-radius: -1rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+ 
     animation-fill-mode: both;
 
     // padding-bottom: 1rem;

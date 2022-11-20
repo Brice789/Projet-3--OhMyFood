@@ -463,6 +463,11 @@ main .carte h3, main .carte p {
   padding-left: 1rem;
 }
 
+body .h2 {
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+
 .carte__lien--selection {
   display: none;
 }
@@ -570,7 +575,7 @@ main .carte h3, main .carte p {
   background-color: #f6f6f6;
 }
 
-.body2 .titrepalette {
+body .titrepalette {
   font-weight: bold;
   font-family: "Shrikhand", cursive;
   position: relative;
@@ -581,7 +586,7 @@ main .carte h3, main .carte p {
   background-color: #f6f6f6;
   margin-top: -2rem;
 }
-.body2 .titrepalette::before {
+body .titrepalette::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -601,7 +606,7 @@ main .carte h3, main .carte p {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-.body2 .titrepalette::after {
+body .titrepalette::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -622,7 +627,7 @@ main .carte h3, main .carte p {
   transition: all 200ms ease-in-out;
   background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
 }
-.body2 .titrepalette:hover::after {
+body .titrepalette:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
@@ -632,12 +637,12 @@ main .carte h3, main .carte p {
   overflow: hidden;
   display: flex-grow;
   height: 4rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  margin-bottom: 1rem;
-  animation: appear 1s;
+  border-bottom-left-radius: -1rem;
+  border-bottom-right-radius: -1rem;
+  border-top-left-radius: -1rem;
+  border-top-right-radius: -1rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
   animation-fill-mode: both;
   height: auto;
 }
