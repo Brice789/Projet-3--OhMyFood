@@ -352,7 +352,7 @@ main {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   flex-grow: 1;
-  min-width: 3rem;
+  min-width: auto;
   max-width: 70rem;
 }
 
@@ -466,6 +466,10 @@ main .carte h3, main .carte p {
 body .h2 {
   padding-left: 2rem;
   margin-left: 2rem;
+}
+
+main .carte img {
+  max-height: 20rem;
 }
 
 .carte__lien--selection {
