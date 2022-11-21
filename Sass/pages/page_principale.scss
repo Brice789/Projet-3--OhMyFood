@@ -53,7 +53,7 @@ main{
 
 
 
-  .imgcarte, .carte new{
+  .imgcarte, .carte {
     // height: 175px;
     width: 100%;
     // -o-object-fit: cover;
@@ -67,17 +67,9 @@ main{
 
   }
 
-.carte1, .carte new{
-    background-color: aliceblue;
-}
 
 
 
-main .restaurants .h3, .p
-{
-    font-weight: bold;
-    color: aquamarine;
-}
 
 
 
@@ -114,40 +106,10 @@ body{
 
 
 
-///try nouveau
-/// 
-/// 
-/// ///@at-root
-.restaurants .imgcarte {
-  position: relative;
-}
-.restaurants .imgcarte::before {
-  content: "Nouveau";
-  position: absolute;
-  height: 2rem;
-  width: 5rem;
-  background-color: #99e2d0;
-  color: #1b6150;
-  display: grid;
-  place-items: center;
-  right: 1rem;
-  top: 1rem;
-}
 
 
-// main .restaurants .restaurants__navigation .carte .carte1 .carte__lien--nouveau {
-//   width: 80px;
-//   position: absolute;
-//   right: 12px;
-//   top: 12px;
-//   padding: 6px 0;
-//   border-radius: 2px;
-//   background-color: #99E2D0;
-//   text-align: center;
-//   font-size: 0.8rem;
-//   font-weight: 500;
-//   color: #278870;
-// }
+
+
 
 
 @media screen and (min-width: 1024px) {
@@ -222,4 +184,22 @@ main .carte img{
   max-height: 20rem;
 
   
+}
+
+
+
+
+
+.nouveau{
+
+
+background-color: #48b599;
+
+color: #136450;
+padding: 0.5rem;
+
+position: absolute;
+top: -18rem;
+right: 0.75rem;
+border-radius: 1rem;
 }

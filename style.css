@@ -356,21 +356,12 @@ main {
   max-width: 70rem;
 }
 
-.imgcarte, .carte new {
+.imgcarte, .carte {
   width: 100%;
   min-width: 3rem;
-  max-width: 70rem .imgcarte, .carte new 100%;
+  max-width: 70rem .imgcarte, .carte 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.carte1, .carte new {
-  background-color: aliceblue;
-}
-
-main .restaurants .h3, .p {
-  font-weight: bold;
-  color: aquamarine;
 }
 
 @media screen and (min-width: 1024px) {
@@ -395,23 +386,6 @@ body {
 body .footer {
   margin-left: 0rem;
   margin-right: 0rem;
-}
-
-.restaurants .imgcarte {
-  position: relative;
-}
-
-.restaurants .imgcarte::before {
-  content: "Nouveau";
-  position: absolute;
-  height: 2rem;
-  width: 5rem;
-  background-color: #99e2d0;
-  color: #1b6150;
-  display: grid;
-  place-items: center;
-  right: 1rem;
-  top: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -470,6 +444,16 @@ body .h2 {
 
 main .carte img {
   max-height: 20rem;
+}
+
+.nouveau {
+  background-color: #48b599;
+  color: #136450;
+  padding: 0.5rem;
+  position: absolute;
+  top: -18rem;
+  right: 0.75rem;
+  border-radius: 1rem;
 }
 
 .carte__lien--selection {
