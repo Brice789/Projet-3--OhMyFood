@@ -161,15 +161,10 @@ main .boutons {
   padding-top: 1rem;
 }
 
-main .h2 {
-  margin-top: 1rem;
-  padding-top: 1rem;
-}
-
 .bouton {
   align-items: center;
   text-align: center;
-  display: flex;
+  display: grid;
   width: 95%;
   height: 75px;
   box-shadow: 0px 5px 10px 0px #b4b4b4;
@@ -188,7 +183,7 @@ main .h2 {
 .bouton .espace {
   display: grid;
   place-items: center;
-  margin-left: 50%;
+  margin-left: 30%;
   position: absolute;
 }
 .bouton .texte1 {
@@ -389,7 +384,7 @@ main {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -409,7 +404,7 @@ main {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
@@ -525,6 +520,7 @@ main .carte img {
 }
 
 .nouveau {
+  position: absolute;
   background-color: #48b599;
   color: #136450;
   padding: 0.5rem;
@@ -750,7 +746,7 @@ body .titrepalette::before {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -770,7 +766,7 @@ body .titrepalette::after {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
@@ -808,6 +804,8 @@ body .titrepalette:hover::after {
 
 .carte1 {
   text-decoration: done;
+  margin: 0;
+  padding: 0%;
 }
 
 .repas__titre--barre {
@@ -873,7 +871,7 @@ header::before {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -893,7 +891,7 @@ header::before {
   content: "\f004";
   font-size: 2rem;
   right: 1rem;
-  top: 50%;
+  top: 3rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
