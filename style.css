@@ -529,9 +529,9 @@ main .carte img {
   color: #136450;
   padding: 0.5rem;
   position: absolute;
-  top: -18rem;
+  margin-top: 1rem;
   right: 0.75rem;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
 }
 
 .carte__lien--selection {
