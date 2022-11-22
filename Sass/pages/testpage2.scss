@@ -27,28 +27,33 @@ body .titrepalette{
     font-weight: bold;
     font-family: "Shrikhand", cursive; //peut changer la police si plus beau
     @include usefull.heart-animated;
-    border-top-left-radius: 20px;
+    border-radius: 20px;
     min-width: 256px;
     background-color:#f6f6f6;
-    margin-top: -2rem;
+    // margin-top: 2rem;
+
+    border-top-left-radius:3rem ;
 }
 .mainpetitmenu .petitmenu{
     background-color: white;
     overflow: hidden;
     display:flex-grow;
     height: 4rem;
-    border-bottom-left-radius: -1rem;
-    border-bottom-right-radius: -1rem;
-    border-top-left-radius: -1rem;
-    border-top-right-radius: -1rem;
+
+
+    // border-bottom-left-radius: -1rem;
+    // border-bottom-right-radius: -1rem;
+    // border-top-left-radius: -1rem;
+    // border-top-right-radius: -1rem;
+
     margin-bottom: 2rem;
     padding-left: 3rem;
  
-    animation-fill-mode: both;
+    // animation-fill-mode: both;
 
     // padding-bottom: 1rem;
     // padding: 1rem;
-    height: auto;
+    
     .h4{
         margin-bottom: 0;
         margin: 0;
@@ -93,3 +98,13 @@ body .titrepalette{
   }
 
 
+body .titrepalette::before {
+  // margin-right: 10%;
+  border-top-right-radius: 2rem;
+}
+
+
+body .arondi{
+  // border-top-right-radius: 2rem;
+  // background-color: #99e2d0;
+}
