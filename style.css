@@ -117,7 +117,7 @@ body .couleur h3 {
   transform: scale(1.05);
 }
 
-main .bouton {
+main .bouton1 {
   width: 100%;
   height: 75px;
   text-align: center;
@@ -132,14 +132,93 @@ main .bouton {
   font-weight: bolder;
   color: #000;
   font-family: "Roboto", sans-serif;
+  /* zone numero de bouton */
 }
-main .bouton:hover {
-  background-color: #f2eafb;
-  transform: scale(1.02);
+main .bouton1:hover {
+  animation: demi-mou 1s ease-in 0.05s 1 forwards;
+  cursor: pointer;
+}
+main .bouton1--numero1 {
+  position: absolute;
+  left: -10px;
+  top: 26px;
+  padding: 3px 8.5px 2px 6.5px;
+  background-color: #9356DC;
+  border: 1px solid #9356DC;
+  border-radius: 22px;
+  color: #FFF;
 }
 
 main .boutons {
   padding-top: 1rem;
+  margin-left: 3rem;
+  padding-left: 3rem;
+}
+
+.boutons h2 {
+  margin-left: 9%;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+main .h2 {
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.bouton {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 95%;
+  height: 75px;
+  box-shadow: 0px 5px 10px 0px #b4b4b4;
+  position: relative;
+  margin: 10px auto;
+  padding: 0;
+  border: none;
+  border-radius: 20px;
+  background-color: #FAFAFA;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: start;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+.bouton .espace {
+  display: grid;
+  place-items: center;
+  margin-left: 50%;
+  position: absolute;
+}
+.bouton .texte1 {
+  margin-left: 10rem;
+  padding: 1 1 1 1rem;
+  color: blue;
+}
+.bouton-numero {
+  top: 26px;
+  padding: 3px 8.5px 2px 6.5px;
+  background-color: #9356DC;
+  border: 1px solid #9356DC;
+  border-radius: 22px;
+  color: #FFF;
+  gap: 1rem;
+  position: absolute;
+  left: -20px;
+}
+.bouton:hover {
+  background-color: #f2eafb;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.bouton i {
+  margin-left: 2rem;
+  padding-left: 2rem;
+  margin-right: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 main .restaurant {
@@ -259,7 +338,6 @@ main {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
