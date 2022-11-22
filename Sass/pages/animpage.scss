@@ -5,7 +5,10 @@
 
 body {
     background-color: usefull.$lightergrey;
+
   }
+
+
   
 
     header {
@@ -32,11 +35,12 @@ body {
         @include usefull.heart-animated;
         border-radius: 2rem 2rem 0 0;
         background-color: usefull.$lightergrey;
+        
       }
     }
   
     .mainpetitmenu {
-      padding: 0 1rem;
+      padding: 0 0rem;
     }
   
     

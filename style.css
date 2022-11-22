@@ -657,6 +657,11 @@ body {
   margin-top: -4rem;
 }
 
+main .arondi {
+  margin: 0;
+  padding: 0;
+}
+
 #page2 .arondi h2 {
   align-self: start;
   font-family: "Shrikhand", "cursive";
@@ -668,6 +673,12 @@ body {
   background-color: #f6f6f6;
   border-top-right-radius: 12rem;
   border-top-left-radius: 12rem;
+}
+
+main .mainpetitmenu {
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
 }
 
 #page2 .arondi h2::before {
@@ -897,7 +908,7 @@ header::before {
 }
 
 .mainpetitmenu {
-  padding: 0 1rem;
+  padding: 0 0rem;
 }
 
 .sectionpetitmenu {

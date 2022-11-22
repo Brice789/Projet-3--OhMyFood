@@ -48,6 +48,11 @@ body{
     margin-top: -4rem;
   }
 
+main .arondi{
+    margin: 0;
+    padding: 0;
+}
+
 
 
   #page2 .arondi h2 {
@@ -66,6 +71,11 @@ body{
     border-top-left-radius: 12rem;
   }
   
+  main .mainpetitmenu{
+  background-color: #f6f6f6;
+  margin: 0;
+    padding: 0;
+  }
   
   #page2 .arondi h2::before {
     display: inline-block;
