@@ -79,13 +79,13 @@ main .boutons{
 .bouton{
         align-items: center;
         text-align: center;
-        display: grid;
+        display: flex;
         .espace{
 
                 // margin-left: 5rem;
                 // padding-left: 5rem;
               
-                display: grid;
+                display: flex;
                 place-items: center;
                 margin-left: 30%;
                 
