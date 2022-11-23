@@ -79,13 +79,13 @@ main .boutons{
 .bouton{
         align-items: center;
         text-align: center;
-        display: flex;
+        display: grid;
         .espace{
 
                 // margin-left: 5rem;
                 // padding-left: 5rem;
               
-                display: flex;
+                display: grid;
                 place-items: center;
                 margin-left: 30%;
                 
@@ -131,6 +131,12 @@ main .boutons{
                 background-color: lighten(#9356dc, 35%);
                 transform: scale(1.02);
                 cursor: pointer;
+                i{
+                        color   : #9356dc;
+                   }
+                   .fas{
+                           color   : #9356dc;
+                   }
         }  
        
         i{
