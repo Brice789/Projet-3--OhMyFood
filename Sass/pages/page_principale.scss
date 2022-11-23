@@ -6,13 +6,11 @@
     text-decoration : none;
 }
 
-//pour marge
 
 main{
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
 
 
 .restaurants
@@ -35,17 +33,9 @@ main{
 }
 
 .restaurants .carte {
-    // height: 250px;
-    // width: 100%;
     border-radius: 20px;
-    // color: #000;
     background-color: #ffffff;
-    // -webkit-box-shadow: 0px 5px 10px 0px #b4b4b4;
-    // box-shadow: 0px 5px 10px 0px #b4b4b4;
     padding-bottom: 1rem;
-
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     flex-grow: 1;
     min-width: auto;
     max-width: 70rem;
@@ -56,22 +46,14 @@ main{
   .imgcarte, .carte {
     // height: 175px;
     width: 100%;
-    // -o-object-fit: cover;
-    // object-fit: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
     min-width: 3rem;
-    max-width: 70rem&100%;
-
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
 
   }
-
-
-
-
-
-
 
   @media screen and (min-width: 1024px) {
     .carte {
@@ -105,18 +87,11 @@ body{
 }
 
 
-
-
-
-
-
-
-
 @media screen and (min-width: 1024px) {
   .carte:hover .carte__lien--nouveau {
     z-index: 1;
     -webkit-animation: tombe 2s linear 0.05s;
-            animation: tombe 2s linear 0.05s;
+    animation: tombe 2s linear 0.05s;
   }
 }
 
@@ -136,10 +111,10 @@ body{
   color: #278870;
 }
 
-
 .new {
   position: relative;
 }
+
 .new::before {
   content: "Nouveau";
   position: absolute;
@@ -180,25 +155,14 @@ body .h2{
 
 
 main .carte img{
-
-  max-height: 20rem;
-
-  
+  max-height: 20rem;  
 }
 
-
-
-
-
 .nouveau{
-
 position: absolute;
-
 background-color: #48b599;
-
 color: #136450;
 padding: 0.5rem;
-
 position: absolute;
 margin-top: 1rem;
 right: 0.75rem;

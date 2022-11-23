@@ -1,13 +1,7 @@
 @use "../utils/usefull.scss";
 
-.imgpagi{
-    width: 100%;
-    min-width: 185px;
-    object-position: center;
-    object-fit: cover;
-    max-height: 25rem;
-}
-// .mainpetitmenu{padding: 0 1rem;}
+
+
 .body2{
     background-color:#f6f6f6;
 }
@@ -22,7 +16,8 @@
         transform: rotate(0);
       }
     }
-  }
+}
+
 body .titrepalette{
     font-weight: bold;
     font-family: "Shrikhand", cursive; //peut changer la police si plus beau
@@ -30,30 +25,14 @@ body .titrepalette{
     border-radius: 20px;
     min-width: 256px;
     background-color:#f6f6f6;
-    // margin-top: 2rem;
-
     border-top-left-radius:3rem ;
 }
 .mainpetitmenu .petitmenu{
     background-color: white;
     overflow: hidden;
-    display:flex-grow;
     height: 4rem;
-
-
-    // border-bottom-left-radius: -1rem;
-    // border-bottom-right-radius: -1rem;
-    // border-top-left-radius: -1rem;
-    // border-top-right-radius: -1rem;
-
     margin-bottom: 2rem;
     padding-left: 3rem;
- 
-    // animation-fill-mode: both;
-
-    // padding-bottom: 1rem;
-    // padding: 1rem;
-    
     .h4{
         margin-bottom: 0;
         margin: 0;
@@ -74,9 +53,7 @@ body .titrepalette{
 
 .carte1
 {
-    text-decoration:done;
-    margin: 0;
-    padding: 0%;
+    text-decoration:none;
 
 }
 
@@ -106,7 +83,3 @@ body .titrepalette::before {
 }
 
 
-body .arondi{
-  // border-top-right-radius: 2rem;
-  // background-color: #99e2d0;
-}

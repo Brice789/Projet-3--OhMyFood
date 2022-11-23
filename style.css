@@ -117,38 +117,6 @@ body .couleur h3 {
   transform: scale(1.05);
 }
 
-main .bouton1 {
-  width: 100%;
-  height: 75px;
-  text-align: center;
-  margin: 10px auto;
-  padding: 0;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 5px 10px 0px #b4b4b4;
-  background-color: #FAFAFA;
-  font-size: 1rem;
-  font-weight: 500;
-  font-weight: bolder;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  /* zone numero de bouton */
-}
-main .bouton1:hover {
-  animation: demi-mou 1s ease-in 0.05s 1 forwards;
-  cursor: pointer;
-}
-main .bouton1--numero1 {
-  position: absolute;
-  left: -10px;
-  top: 26px;
-  padding: 3px 8.5px 2px 6.5px;
-  background-color: #9356DC;
-  border: 1px solid #9356DC;
-  border-radius: 22px;
-  color: #FFF;
-}
-
 main .boutons {
   padding-top: 1rem;
   margin-left: 3rem;
@@ -167,7 +135,7 @@ main .boutons {
   display: grid;
   width: 95%;
   height: 75px;
-  box-shadow: 0px 5px 10px 0px #b4b4b4;
+  box-shadow: 0 5 10 0px #b4b4b4;
   position: relative;
   margin: 10px auto;
   padding: 0;
@@ -185,11 +153,6 @@ main .boutons {
   place-items: center;
   margin-left: 30%;
   position: absolute;
-}
-.bouton .texte1 {
-  margin-left: 10rem;
-  padding: 1 1 1 1rem;
-  color: blue;
 }
 .bouton-numero {
   top: 26px;
@@ -389,7 +352,7 @@ main {
   font-weight: 400;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: inherit;
@@ -409,7 +372,7 @@ main {
   font-weight: 900;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: transparent;
@@ -428,8 +391,6 @@ main {
   border-radius: 20px;
   background-color: #ffffff;
   padding-bottom: 1rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   flex-grow: 1;
   min-width: auto;
   max-width: 70rem;
@@ -437,8 +398,9 @@ main {
 
 .imgcarte, .carte {
   width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
   min-width: 3rem;
-  max-width: 70rem .imgcarte, .carte 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -621,7 +583,7 @@ main .carte img {
   -webkit-background-clip: text;
 }
 
-#page1 #page1 body .header .h1 {
+#page1 body .header .h1 {
   text-align: center;
   align-items: center;
 }
@@ -656,12 +618,20 @@ body {
 }
 
 #page2 .arondi {
-  margin-top: -4rem;
+  margin-top: -7rem;
 }
 
 main .arondi {
   margin: 0;
   padding: 0;
+}
+
+.imgpagi {
+  width: 100%;
+  min-width: 185px;
+  object-position: center;
+  object-fit: cover;
+  max-height: 25rem;
 }
 
 #page2 .arondi h2 {
@@ -670,8 +640,6 @@ main .arondi {
   padding: 2rem 2rem;
   position: relative;
   background-color: white;
-  border-radius: 0 0 1rem 1rem;
-  border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
   border-top-right-radius: 12rem;
   border-top-left-radius: 12rem;
@@ -717,14 +685,6 @@ section.sectionpetitmenu {
   padding-right: 5%;
 }
 
-.imgpagi {
-  width: 100%;
-  min-width: 185px;
-  object-position: center;
-  object-fit: cover;
-  max-height: 25rem;
-}
-
 .body2 {
   background-color: #f6f6f6;
 }
@@ -751,7 +711,7 @@ body .titrepalette::before {
   font-weight: 400;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: inherit;
@@ -771,7 +731,7 @@ body .titrepalette::after {
   font-weight: 900;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: transparent;
@@ -789,7 +749,6 @@ body .titrepalette:hover::after {
 .mainpetitmenu .petitmenu {
   background-color: white;
   overflow: hidden;
-  display: flex-grow;
   height: 4rem;
   margin-bottom: 2rem;
   padding-left: 3rem;
@@ -809,9 +768,7 @@ body .titrepalette:hover::after {
 }
 
 .carte1 {
-  text-decoration: done;
-  margin: 0;
-  padding: 0%;
+  text-decoration: none;
 }
 
 .repas__titre--barre {
@@ -876,7 +833,7 @@ header::before {
   font-weight: 400;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: inherit;
@@ -896,7 +853,7 @@ header::before {
   font-weight: 900;
   content: "\f004";
   font-size: 2rem;
-  right: 1rem;
+  right: 10%;
   top: 3rem;
   transform: translateY(-50%);
   color: transparent;
@@ -983,7 +940,7 @@ header::before {
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 1 1 0rem;
   background-color: #99e2d0;
   margin-right: -4rem;
   width: 4rem;
