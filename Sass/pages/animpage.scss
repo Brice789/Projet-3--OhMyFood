@@ -98,7 +98,6 @@ body {
             place-items: center;
             flex-shrink: 0;
             $button-width: 4rem;
-            border-radius: 0 1 1 0rem;
             background-color: usefull.$color-tertiary;
             margin-right: -1 * $button-width;
             width: $button-width;

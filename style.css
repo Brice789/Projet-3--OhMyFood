@@ -135,7 +135,7 @@ main .boutons {
   display: grid;
   width: 95%;
   height: 75px;
-  box-shadow: 0 5 10 0px #b4b4b4;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
   position: relative;
   margin: 10px auto;
   padding: 0;
@@ -906,7 +906,7 @@ header::before {
   border-radius: 1rem;
   overflow: hidden;
   margin: 0.5rem;
-  box-shadow: 2px 1px 8px -3px 1000px #7e7e7e;
+  box-shadow: 2px 1px 8px -3px #7e7e7e;
   animation: appear 1s;
   animation-fill-mode: both;
 }
@@ -940,7 +940,6 @@ header::before {
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  border-radius: 0 1 1 0rem;
   background-color: #99e2d0;
   margin-right: -4rem;
   width: 4rem;
