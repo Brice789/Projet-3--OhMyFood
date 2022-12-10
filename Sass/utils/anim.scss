@@ -29,13 +29,7 @@
               animation: grandi-bat 1.8s linear forwards;
     }
   }
-  @media screen and (min-width: 1024px) {
-    .carte:hover .carte__lien--nouveau {
-      z-index: 1;
-      -webkit-animation: tombe 2s linear 0.05s;
-              animation: tombe 2s linear 0.05s;
-    }
-  }
+  
   
   /* bloc bem coeur réutilisé */
   .coeur {

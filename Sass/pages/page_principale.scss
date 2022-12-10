@@ -1,4 +1,5 @@
 @use "../utils/usefull.scss";
+@use "../utils/anim.scss";
 
 
 
@@ -97,34 +98,34 @@ body{
 }
 
 
-.restaurants__navigation .new{
-  position: relative;
-  width: 80px;
-  left: 295px;
-  top: 12px;
-  padding: 8px;
-  border-radius: 12px;
-  background-color: #99E2D0;
-  text-align: center;
-  color: #278870;
-}
+// .restaurants__navigation .new{
+//   position: relative;
+//   width: 80px;
+//   left: 295px;
+//   top: 12px;
+//   padding: 8px;
+//   border-radius: 12px;
+//   background-color: #99E2D0;
+//   text-align: center;
+//   color: #278870;
+// }
 
-.new {
-  position: relative;
-}
+// .new {
+//   position: relative;
+// }
 
-.new::before {
-  content: "Nouveau";
-  position: absolute;
-  height: 2rem;
-  width: 5rem;
-  background-color: #99e2d0;
-  color: #1b6150;
-  display: grid;
-  place-items: center;
-  right: 1rem;
-  top: 1rem;
-}
+// .new::before {
+//   content: "Nouveau";
+//   position: absolute;
+//   height: 2rem;
+//   width: 5rem;
+//   background-color: #99e2d0;
+//   color: #1b6150;
+//   display: grid;
+//   place-items: center;
+//   right: 1rem;
+//   top: 1rem;
+// }
 
 
 main .restaurants{
@@ -161,8 +162,102 @@ position: absolute;
 background-color: #48b599;
 color: #136450;
 padding: 0.5rem;
-position: absolute;
 margin-top: 1rem;
 right: 10%;
-border-radius: 0.25rem;
+}
+
+// display: grid;
+// place-items: center;
+// right: 10%;
+
+
+// border-radius: 0.25rem;
+// }
+
+// .carte .oui .nouveau1{
+//   //position: absolute;
+//   background-color: #48b599;
+//   color: #136450;
+//   padding: 0.5rem;
+//   margin-top: 1rem;
+//   display: grid;
+//   place-items: center;
+//   right: 1rem;
+//   border-radius: 0.25rem;
+//   // position: relative;
+
+// }
+
+
+
+// .restaurants .restaurants__navigation .carte1 .new {
+//   position: relative;
+// }
+// .restaurants .restaurants__navigation .carte1 .new::before {
+//   content: "Nouveau";
+//   position: absolute;
+//   height: 2rem;
+//   width: 5rem;
+//   background-color: #99e2d0;
+//   color: #1b6150;
+//   display: grid;
+//   place-items: center;
+//   right: 1rem;
+//   top: 1rem;
+// }
+
+
+//  .restaurants__navigation .card__badge {
+//   background-color: #99e2d0;
+//   color: #1b6150;
+//   padding: 0.5rem;
+//   border-radius: 0.125rem;
+//   position: absolute;
+//   top: 1rem;
+//   right: 0.75rem;
+
+
+//   background-color: white;
+//   border-radius: 1rem;
+//   position: relative;
+//   text-decoration: none;
+//   color: inherit;
+//   display: block;
+// }
+
+
+
+.restaurants {
+  background-color: #f6f6f6;
+  margin-bottom: 2rem;
+
+  .carte1 {
+    display: grid;
+    .new {
+      position: relative;
+    }
+    .new::before {
+      content: "Nouveau";
+      position: absolute;
+      height: 2rem;
+      width: 5rem;
+      // background-color: colors.$color-tertiary;
+      // color: darken(colors.$color-tertiary, 50%);
+      display: grid;
+      place-items: center;
+      right: 1rem;
+      top: 1rem;
+    }
+  }
+}
+
+
+.restaurants .carte1 .card__badge {
+  background-color: #99e2d0;
+  color: #1b6150;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 1rem;
+  right: 0.75rem;
 }
