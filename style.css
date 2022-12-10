@@ -334,12 +334,12 @@ main {
   flex-wrap: wrap;
 }
 
-.restaurants .carte1 {
+.restaurants .cartemi {
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
 }
-.restaurants .carte1::before {
+.restaurants .cartemi::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -351,7 +351,7 @@ main {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -359,7 +359,7 @@ main {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-.restaurants .carte1::after {
+.restaurants .cartemi::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -371,7 +371,7 @@ main {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
@@ -380,7 +380,7 @@ main {
   transition: all 200ms ease-in-out;
   background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
 }
-.restaurants .carte1:hover::after {
+.restaurants .cartemi:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
@@ -485,14 +485,14 @@ main .carte img {
   max-height: 20rem;
 }
 
-.nouveau {
+.carte1 .nouveau {
   position: absolute;
   background-color: #48b599;
   color: #136450;
   padding: 0.5rem;
   position: absolute;
   margin-top: 1rem;
-  right: 0.75rem;
+  right: 10%;
   border-radius: 0.25rem;
 }
 
@@ -710,7 +710,7 @@ body .titrepalette::before {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -730,7 +730,7 @@ body .titrepalette::after {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;
@@ -832,7 +832,7 @@ header::before {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: inherit;
   background-clip: text;
@@ -852,7 +852,7 @@ header::before {
   content: "\f004";
   font-size: 2rem;
   right: 10%;
-  top: 3rem;
+  top: 2rem;
   transform: translateY(-50%);
   color: transparent;
   background-clip: text;

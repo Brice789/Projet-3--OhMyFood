@@ -27,7 +27,7 @@ main{
     flex-wrap: wrap ;
 
 }
-.restaurants .carte1{
+.restaurants .cartemi{
   @include usefull.heart-animated;
 
 }
@@ -158,13 +158,13 @@ main .carte img{
   max-height: 20rem;  
 }
 
-.nouveau{
+.carte1 .nouveau{
 position: absolute;
 background-color: #48b599;
 color: #136450;
 padding: 0.5rem;
 position: absolute;
 margin-top: 1rem;
-right: 0.75rem;
+right: 10%;
 border-radius: 0.25rem;
 }
