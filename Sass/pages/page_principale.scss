@@ -27,12 +27,13 @@ main{
     flex-wrap: wrap ;
 
 }
-.restaurants .cartemi{
+.restaurants .cartemi .coeur1{
   @include usefull.heart-animated;
 
 }
 
-.restaurants .carte {
+.restaurants .carte 
+  {
     border-radius: 20px;
     background-color: #ffffff;
     padding-bottom: 1rem;
@@ -97,9 +98,7 @@ body{
 
 
 .restaurants__navigation .new{
-
   position: relative;
-
   width: 80px;
   left: 295px;
   top: 12px;
@@ -107,7 +106,6 @@ body{
   border-radius: 12px;
   background-color: #99E2D0;
   text-align: center;
-
   color: #278870;
 }
 

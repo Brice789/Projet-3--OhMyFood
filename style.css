@@ -253,6 +253,10 @@ footer :any-link {
   text-decoration: none;
 }
 
+span.coeur1 {
+  padding-right: 102%;
+}
+
 @keyframes appear {
   0% {
     transform: translateY(50%);
@@ -338,12 +342,12 @@ main {
   flex-wrap: wrap;
 }
 
-.restaurants .cartemi {
+.restaurants .cartemi .coeur1 {
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
 }
-.restaurants .cartemi::before {
+.restaurants .cartemi .coeur1::before {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -363,7 +367,7 @@ main {
   opacity: 1;
   transition: all 200ms ease-in-out;
 }
-.restaurants .cartemi::after {
+.restaurants .cartemi .coeur1::after {
   display: inline-block;
   position: absolute;
   font-style: normal;
@@ -384,7 +388,7 @@ main {
   transition: all 200ms ease-in-out;
   background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(255, 121, 218));
 }
-.restaurants .cartemi:hover::after {
+.restaurants .cartemi .coeur1:hover::after {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
