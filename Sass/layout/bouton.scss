@@ -5,7 +5,7 @@
     background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
     margin-top: 1.5rem;
 
-    color: white;
+    color: rgb(255, 233, 233);
     font-weight: 300;
     font-size: 1.5rem;
     padding: 1rem 2rem;
@@ -20,7 +20,8 @@
 
 
   :hover{
-    transform: scale(1.02);
+   transform: scale(1.02);
+   color:rgb(255, 255, 255);
   }
 
   }
@@ -28,6 +29,7 @@
 
   .reserver button:hover {
     transform: scale(1.05);
+    color:rgb(255, 255, 255);
   }
 
   .mainpetitmenu button{
@@ -55,6 +57,7 @@
 
   :hover{
   transform: scale(1.02);
+  color:rgb(255, 255, 255);
   }
 
 }
@@ -62,6 +65,7 @@
 
 .mainpetitmenu button:hover {
   transform: scale(1.05);
+  color:rgb(255, 255, 255);
 }
 
 
