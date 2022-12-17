@@ -82,6 +82,27 @@ main .arondi{
     content: "\f004";
     font-size: 2rem;
     right: 10%;
+    top: 2rem;
+    transform: translateY(-50%);
+    color: inherit;
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 1;
+    transition: all 200ms ease-in-out;
+  }
+
+    .arondi h2::after {
+    display: inline-block;
+    position: absolute;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f004";
+    font-size: 2rem;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     color: inherit;

@@ -67,9 +67,9 @@ body .couleur h3 {
 }
 
 .reserver button {
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-color: #d96ddb;
   margin-top: 1.5rem;
-  color: rgb(255, 233, 233);
+  color: rgb(255, 255, 255);
   font-weight: 300;
   font-size: 1.5rem;
   padding: 1rem 2rem;
@@ -81,14 +81,10 @@ body .couleur h3 {
   cursor: pointer;
   transition: transform 200ms;
 }
-.reserver button :hover {
-  transform: scale(1.02);
-  color: rgb(255, 255, 255);
-}
 
 .reserver button:hover {
-  transform: scale(1.05);
-  color: rgb(255, 255, 255);
+  transform: scale(1.03);
+  background-color: #f777f9;
 }
 
 .mainpetitmenu button {
@@ -96,11 +92,9 @@ body .couleur h3 {
 }
 
 .couleur button {
-  align-items: center;
-  margin: auto;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-color: #d96ddb;
   margin-top: 1.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 300;
   font-size: 1.5rem;
   padding: 1rem 2rem;
@@ -108,17 +102,14 @@ body .couleur h3 {
   border-radius: 2rem;
   box-shadow: 2px 1px 8px -3px #7e7e7e;
   font-size: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
   transition: transform 200ms;
 }
-.couleur button :hover {
-  transform: scale(1.02);
-  color: rgb(255, 255, 255);
-}
 
-.mainpetitmenu button:hover {
-  transform: scale(1.05);
-  color: rgb(255, 255, 255);
+.couleur button:hover {
+  transform: scale(1.03);
+  background-color: #f777f9;
 }
 
 main .boutons {
@@ -651,6 +642,27 @@ main .mainpetitmenu {
 }
 
 #page2 .arondi h2::before {
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f004";
+  font-size: 2rem;
+  right: 10%;
+  top: 2rem;
+  transform: translateY(-50%);
+  color: inherit;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+
+.arondi h2::after {
   display: inline-block;
   position: absolute;
   font-style: normal;

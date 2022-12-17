@@ -1,11 +1,9 @@
 
 .reserver button {
-
-
-    background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    //background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    background-color:#d96ddb;
     margin-top: 1.5rem;
-
-    color: rgb(255, 233, 233);
+    color: rgb(255, 255, 255);
     font-weight: 300;
     font-size: 1.5rem;
     padding: 1rem 2rem;
@@ -13,36 +11,25 @@
     border-radius: 2rem;
     box-shadow: 2px 1px 8px -3px #7e7e7e;
     font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: transform 200ms;
+}
 
-  margin-top: 1rem;
-  cursor: pointer;
-  transition: transform 200ms;
+.reserver button:hover {
+   transform: scale(1.03);
+   background-color:#f777f9;
+}
 
-
-  :hover{
-   transform: scale(1.02);
-   color:rgb(255, 255, 255);
-  }
-
-  }
-
-
-  .reserver button:hover {
-    transform: scale(1.05);
-    color:rgb(255, 255, 255);
-  }
-
-  .mainpetitmenu button{
+.mainpetitmenu button{
     align-items: center;
-  }
+}
 
 .couleur button
 {
-  align-items: center;
-  margin: auto;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-color:#d96ddb;
   margin-top: 1.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 300;
   font-size: 1.5rem;
   padding: 1rem 2rem;
@@ -50,22 +37,24 @@
   border-radius: 2rem;
   box-shadow: 2px 1px 8px -3px #7e7e7e;
   font-size: 1rem;
-  
+  margin-top: 1rem;
   cursor: pointer;
   transition: transform 200ms;
+}
+
+.couleur button:hover{
 
 
-  :hover{
-  transform: scale(1.02);
-  color:rgb(255, 255, 255);
-  }
-
+    transform: scale(1.03);
+    background-color:#f777f9;
+  
 }
 
 
-.mainpetitmenu button:hover {
-  transform: scale(1.05);
-  color:rgb(255, 255, 255);
-}
+// .mainpetitmenu button:hover {
+//   transform: scale(1.05);
+//   color:rgb(255, 255, 255);
+//   background-color: rgb(255, 255, 255);
+// }
 
 
