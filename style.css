@@ -533,42 +533,15 @@ main .carte img {
   max-height: 20rem;
 }
 
+.carte1 {
+  position: relative;
+}
+
 .carte1 .nouveau {
   position: absolute;
   background-color: #48b599;
   color: #136450;
   padding: 0.5rem;
-  margin-top: 1rem;
-  right: 10%;
-}
-
-.restaurants {
-  background-color: #f6f6f6;
-  margin-bottom: 2rem;
-}
-.restaurants .carte1 {
-  display: grid;
-}
-.restaurants .carte1 .new {
-  position: relative;
-}
-.restaurants .carte1 .new::before {
-  content: "Nouveau";
-  position: absolute;
-  height: 2rem;
-  width: 5rem;
-  display: grid;
-  place-items: center;
-  right: 1rem;
-  top: 1rem;
-}
-
-.restaurants .carte1 .card__badge {
-  background-color: #99e2d0;
-  color: #1b6150;
-  padding: 0.5rem;
-  border-radius: 0.125rem;
-  position: absolute;
   top: 1rem;
   right: 0.75rem;
 }
