@@ -114,8 +114,6 @@ $darkgrey: #353535;
   }
 
 
-
-
   @mixin quarterspin {
     @keyframes quarterspin {
       0% {
@@ -379,7 +377,6 @@ $darkgrey: #353535;
   opacity: $opacity;
   transition: all 200ms ease-in-out;
 }
-
 
 //// 
 @mixin heart-animated1 {
