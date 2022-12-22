@@ -195,6 +195,20 @@ $darkgrey: #353535;
   transition: all 200ms ease-in-out;
 }
 
+@mixin heartt($opacity: 1, $font-weight: 400, $color: inherit) {
+  @include font-awesome($font-weight);
+  content: "\f004";
+  font-size: 2rem;
+  right: 10%;
+  top: 3rem;
+  transform: translateY(-50%);
+  color: $color;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: $opacity;
+  transition: all 200ms ease-in-out;
+}
+
 @mixin heart-animated {
   position: relative;
   background-color: white;
@@ -211,15 +225,15 @@ $darkgrey: #353535;
     transform: translateY(-50%) scale(1.1);
   }
 }
-@mixin heart-animated1 {
+@mixin heart-animated10 {
   position: relative;
   background-color: white;
   border-radius: 0 0 1rem 1rem;
   &::before {
-    @include heart;
+    @include heartt;
   }
   &::after {
-    @include heart($opacity: 0, $font-weight: 900, $color: transparent);
+    @include heartt($opacity: 0, $font-weight: 900, $color: transparent);
     @include gradient(1);
   }
   &:hover::after {
@@ -356,6 +370,19 @@ $darkgrey: #353535;
   font-size: 2rem;
   right: 10%;
   top: 2rem;
+  transform: translateY(-50%);
+  color: $color;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: $opacity;
+  transition: all 200ms ease-in-out;
+}
+@mixin heart3($opacity: 1, $font-weight: 400, $color: inherit) {
+  @include font-awesome($font-weight);
+  content: "\f004";
+  font-size: 2rem;
+  right: 10%;
+  top: 3rem;
   transform: translateY(-50%);
   color: $color;
   background-clip: text;
