@@ -74,7 +74,7 @@ body {
           border-radius: 1rem;
           overflow: hidden;
           margin: 0.5rem;
-          @include usefull.box-shadow;
+          // @include usefull.box-shadow;
           animation: appear 1s;
           animation-fill-mode: both;
          
